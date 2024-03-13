@@ -13,8 +13,8 @@ public class Main {
         A = Integer.parseInt(st.nextToken());
         B = Integer.parseInt(st.nextToken());
         C = Integer.parseInt(st.nextToken());
-        check = new boolean[201][201][201];
-        visited = new boolean[201];
+        check = new boolean[A + 1][B + 1][C + 1];
+        visited = new boolean[C + 1];
         list = new ArrayList<>();
 
         solve(0, 0, C);
